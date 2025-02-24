@@ -21,13 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // Formani yuborishni boshqarish
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('registerForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent the default form submission
-        // Add your form submission logic here
-        alert('Form submitted!');
-    });
-});
+document.getElementById('registerForm').addEventListener('submit', function(event) {
+    event.preventDefault();
 
     const formData = {
         username: document.getElementById('username').value,
