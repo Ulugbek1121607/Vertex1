@@ -1,4 +1,4 @@
-app = "<your-app-name>"  # Replace with your desired app name
+app = "vertex1-dooxew"  # Replace with your desired app name
 
 kill_signal = "SIGINT"
 kill_timeout = 5
