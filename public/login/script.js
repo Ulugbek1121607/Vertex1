@@ -46,7 +46,7 @@ document.getElementById('registerForm').addEventListener('submit', function(even
     .then(response => response.json())
     .then(data => {
         if (data.message === 'User data saved successfully') {
-            window.location.href = '/main.html'; // Redirect to main page after successful registration
+            window.location.href = 'main2.html'; // Redirect to main page after successful registration
         } else {
             alert(data.message);
         }
